@@ -27,4 +27,3 @@ jobs:
           source_branch: "main"
           destination_branch: "main"
           github_token: ${{ secrets.PAT || github.event.client_payload.PAT }}
-          echo test, and deploy your project.
